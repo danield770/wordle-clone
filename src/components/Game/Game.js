@@ -9,9 +9,6 @@ import Banner from '../Banner/Banner';
 import Keyboard from '../Keyboard/Keyboard';
 import { checkGuess } from '../../game-helpers';
 
-// // Pick a random word on every pageload.
-// const answer = sample(WORDS);
-
 function Game() {
   const [guesses, setGuesses] = React.useState([]);
   const [gameStatus, setGameStatus] = React.useState('running');
